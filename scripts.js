@@ -64,8 +64,8 @@ buildParticles()
 // Controls: free rotation on all axes, no pole limit
 const controls = new TrackballControls(camera, renderer.domElement)
 controls.rotateSpeed = 3
-controls.zoomSpeed = 1.2
-controls.dynamicDampingFactor = 0.05 // smoothness / inertia
+controls.zoomSpeed = 0.8
+controls.dynamicDampingFactor = 0.03 // smoothness / inertia
 controls.noPan = true                // remove this line if you want panning
 
 // GUI
